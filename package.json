@@ -1,0 +1,142 @@
+{
+    "author": "Pebble",
+    "dependencies": {},
+    "keywords": [],
+    "name": "time-dots-wind",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Time Dots Wind",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "DIR_KEY": 3,
+            "SPEED_DIR_KEY": 4,
+            "WEATHER_TEMPERATURE_KEY": 0,
+            "WIND_DIR_KEY": 1,
+            "WIND_SPEED_KEY": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/wind.png",
+                    "name": "IMAGE_WIND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction.png",
+                    "name": "IMAGE_DIRECTION",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_e.png",
+                    "name": "IMAGE_DIR_E",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_ne.png",
+                    "name": "IMAGE_DIR_NE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_nw.png",
+                    "name": "IMAGE_DIR_NW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_n.png",
+                    "name": "IMAGE_DIR_N",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_se.png",
+                    "name": "IMAGE_DIR_SE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_s.png",
+                    "name": "IMAGE_DIR_S",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_w.png",
+                    "name": "IMAGE_DIR_W",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/direction_sw.png",
+                    "name": "IMAGE_DIR_SW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_e.png",
+                    "name": "IMAGE_WIND_E",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_se.png",
+                    "name": "IMAGE_WIND_SE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_ne.png",
+                    "name": "IMAGE_WIND_NE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_n.png",
+                    "name": "IMAGE_WIND_N",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_nw.png",
+                    "name": "IMAGE_WIND_NW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_s.png",
+                    "name": "IMAGE_WIND_S",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_sw.png",
+                    "name": "IMAGE_WIND_SW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind_w.png",
+                    "name": "IMAGE_WIND_W",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "751fca17-11b9-4e74-aadf-a2424f8a8454",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
